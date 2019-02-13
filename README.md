@@ -28,5 +28,30 @@ Latest version of the Amiri font can be optained from its web site:
 
 > http://amirifont.org
 
+Contributing
+------------
+
+To edit the font sources, you will need FontForge, preferably the latest
+version. To install FontForge on Debian and Ubuntu:
+
+    $ sudo apt-get install fontforge
+
+You can then open the source files in FontForge and start editing, either from
+GUI or from the command line:
+
+    $ fontforge sources/Amiri-Regular.sfdir
+
+To build the fonts you need FontForge Python module, gpp and FontTools:
+
+    $ sudo apt-get install python-fontforge gpp
+    $ python -m venv amiri --system-site-packages
+    $ . amiri/bin/activate
+    $ pip install fonttools brotli
+
+To build the font files run:
+
+    $ make ttf
+
+
 [1]: http://www.bibalex.org/bulaqpress/en/bulaq.htm "The Bulaq Press"
 [2]: http://scripts.sil.org/OFL "The Open Font License"
