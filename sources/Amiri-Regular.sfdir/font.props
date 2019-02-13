@@ -19,6 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273266481
+ModificationTime: 1550071525
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -93,6 +94,10 @@ GaspTable: 1 65535 15 1
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL without afii
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 1536 32 14
 BeginPrivate: 0
 EndPrivate
 Grid
