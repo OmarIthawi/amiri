@@ -1,10 +1,20 @@
 StartChar: uni0627
 Encoding: 1575 1575 444
-Width: 217
+Width: 234
 Flags: HW
 AnchorPoint: "TashkilAbove" 98 757 basechar 0
 AnchorPoint: "TashkilBelow" 122 -93 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 -1 N 1 0 0 1 0 0 3
+SplineSet
+103 609 m 1
+ 103 609 181.369140625 596.291015625 212 556 c 0
+ 231 531.0078125 223.205078125 458.811523438 202 436 c 0
+ 136 365 5 346 5 346 c 0
+ 5 346 78 387 142 445 c 0
+ 159.217773438 460.603515625 184.62890625 492 148 518 c 0
+ 132.528320312 528.982421875 119 524 119 524 c 1
+ 103 609 l 1
+EndSplineSet
+Refer: 2 -1 N 1 0 0 0.87783 -4 -0.0967105 2
 EndChar
