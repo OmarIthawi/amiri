@@ -12,7 +12,7 @@ def genCSS(font, base):
         style = "oblique"
     weight = font["OS/2"].usWeightClass
     family = font["name"].getName(nameID=1, platformID=3, platEncID=1)
-    family = str(family).replace(" ", "")
+    family = str(family).replace(" ", "").replace("\0", "")
 
     css = """
 @font-face {
